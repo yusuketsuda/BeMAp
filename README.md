@@ -45,5 +45,5 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 # Author
 Yusuke Tsuda
-Bacteriology, Nagoya University Graduated School of Medicine
+Bacteriology Nagoya University Graduated School of Medicine
 tsuda.yusuke@med.nagoya-u.ac.jp
