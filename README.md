@@ -1,12 +1,19 @@
 # BeMAp
 BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial resistance genes.
 
+# Features
+
+
 # Requirements 
-* NCBIblast
+* NCBI blast
 * Biopython
 
 # Tested environments
-
+* macOS 11.6
+* Ubuntu 20.04
+* Python 3.7.10
+* makeblastdb 2.9.0
+* biopython 1.79
 
 # Installation
 
