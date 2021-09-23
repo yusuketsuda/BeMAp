@@ -12,7 +12,9 @@ BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial re
 
 
 # Usage
-
+'''bash
+python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
+'''
 
 # Options
 
