@@ -11,9 +11,9 @@ BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial re
 # Tested environments
 * macOS 11.6
 * Ubuntu 20.04
-* Python 3.7.10, 3.8.5
-* makeblastdb 2.5.0, 2.9.0
-* biopython 1.77, 1.79
+* Python 3.7.10 and 3.8.5
+* makeblastdb 2.5.0 and 2.9.0
+* biopython 1.77 and 1.79
 
 # Installation
 
