@@ -1,5 +1,5 @@
 # BeMAp
-BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial resistance genes.
+BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial resistance genes on a spreadsheet.
 
 # Features
 
@@ -20,7 +20,23 @@ BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial re
 
 # Usage
 ```bash
+cd BeMAp_package
+```
+
+* before perfoming BeMAp, make database for AMR genes and Inc typing
+```bash
+python makeblastdb.py
+```
+
+* Now let's start BeMAp!
+```bash
 python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
+```
+
+* testrun
+```bash
+cd BeMAp.package
+python BeMAp.py -d sample -i sample.fsa
 ```
 
 # Options
