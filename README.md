@@ -29,9 +29,9 @@ cd BeMAp_package
 python makeblastdb.py
 ```
 
-* testrun
+* testrun (mapping of 20 plasmids carrying blaIMP-6)
 ```bash
-python BeMAp.py -d sample -i sample.fsa
+python BeMAp.py -d testrun -i testrun.fsa
 ```
 
 * Now let's start BeMAp!
