@@ -2,7 +2,7 @@
 BeMAp is a tool for mapping and analyzing plasmids carrying antimicrobial resistance genes on a spreadsheet.
 
 # Features
-BeMAp, Bird's-eye MApping of plasmids, is a tool for mapppin and analyzing multiple plasmids carrying antimicrobial resistance genes on a spreadsheet.
+BeMAp, Bird's-eye MApping of plasmids, is a tool for mappping and analyzing multiple plasmids carrying antimicrobial resistance genes on a spreadsheet.
 Outlining flowchart of BeMAp is below.
 
 ![Fig1-11](https://user-images.githubusercontent.com/89430651/138423530-dfa53397-c8b3-4dca-aa56-9d4c8f7a6fed.png)
@@ -67,7 +67,7 @@ BeMAp uses databases for the antimicrobial resistance genes and Inc grouping.
 * PlasmidFinder (Final update)
 
 # Note
-* Displaying the dendric tree may depend on your setting. Please adjust dendric tree to the cells in the spreadsheet.
+* Displaying the dendric tree depends on PC setting. Please adjust dendric tree to the cells in the spreadsheet.
 
 # Future Plan
 BeMAp will offer options below in the future.
