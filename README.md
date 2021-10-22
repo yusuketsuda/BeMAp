@@ -64,7 +64,7 @@ BeMAp will offer options below in the future.
 * Precise identification of the other genes, such as virulence genes or transposases
 * New alignments algorithm by weighting according to features of plasmids or organizations of genes
 * Analyse including chromosomes
-Please wait, thank you.
+\n Please wait, thank you.
 
 # License
 MIT License
