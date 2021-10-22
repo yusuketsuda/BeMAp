@@ -1,7 +1,11 @@
 # BeMAp
-BeMAp is a platform for mapping and analyzing plasmids carrying antimicrobial resistance genes on a spreadsheet.
+BeMAp is a tool for mapping and analyzing plasmids carrying antimicrobial resistance genes on a spreadsheet.
 
 # Features
+BeMAp, Bird's-eye MApping of plasmids, is a tool for mapppin and analyzing multiple plasmids carrying antimicrobial resistance genes on a spreadsheet.
+Outlining flowchart of BeMAp is below.
+
+
 
 
 # Requirements 
@@ -54,9 +58,16 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 
 
-# Note
+# Future Plan
+BeMAp will offer options below in the future.
+* Precise identification of the antimicrobial resistance genes
+* Precise identification of the other genes, such as virulence genes or transposases
+* New alignments algorithm by weighting according to features of plasmids or organizations of genes
+* Analyse including chromosomes
+Please wait, thank you.
 
 # License
+MIT License
 
 # Reference
 
