@@ -23,7 +23,10 @@ If you need more detail, please read our article or send e-mail.
 * Libre office 6.4.7.2
 
 # Installation
+Please download **BeMAp.package**. This includes all of codes to run BeMAp.
 
+
+If you need test run, you should download **testrun** directory.
 
 # Usage
 * change directory
@@ -59,8 +62,12 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 
 
+# Note
+* Displaying the dendric tree may depend on your setting. Please adjust dendric tree to the cells.
+
 # Future Plan
 BeMAp will offer options below in the future.
+* Provide images of mapping not a spreadsheet for publication or presentation
 * Precise identification of the antimicrobial resistance genes
 * Precise identification of the other genes, such as virulence genes or transposases
 * New alignments algorithm by weighting according to features of plasmids or organizations of genes
