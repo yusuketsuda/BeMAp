@@ -60,7 +60,10 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 * -identity
 
-
+# Database in BeMAp
+BeMAp uses databases for the antimicrobial resistance genes and Inc grouping.
+* ResFinder (Final update)
+* PlasmidFinder (Final update)
 
 # Note
 * Displaying the dendric tree may depend on your setting. Please adjust dendric tree to the cells.
