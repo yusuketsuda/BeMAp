@@ -52,6 +52,8 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 # Options
 
+| command | description |
+|---------|-----------|
 | -d, --indir | directry containing genbank files |
 | -i, --infile | a fasta file for identifying the target gene |
 
