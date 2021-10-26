@@ -26,7 +26,6 @@ If you need more detail, please check our article or send e-mail.
 # Installation
 Please download **BeMAp.package**. This includes all codes to run BeMAp.
 
-
 If you need test run, you should download **testrun** directory.
 
 # Usage
@@ -51,18 +50,17 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 ```
 
 # Options
-
-| command | description |
-|---------|-----------|
-| -d, --indir | directry containing genbank files |
-| -i, --infile | a fasta file for identifying the target gene |
-| -o, --out | directory for output |
-| --precise | identify the antimicrobial resistance genes precisely |
-| --ident_target | change identity when quering target gene if necessary (default=95%) |
-| --property | mapping with Inc group, country and organism if necessary |
-| --num_process | the number of process (default=3) |
-| --save_all | save all csv files if necessary |
-| --skip_ident | Input directory containing csv files after identification of AMR genes and you can skip step for identification |
+```
+ -d, --indir        directry containing genbank files 
+ -i, --infile       a fasta file for identifying the target gene 
+ -o, --out          directory for output 
+ --precise          identify the antimicrobial resistance genes precisely 
+ --ident_target     change identity when quering target gene if necessary (default=95%) 
+ --property         mapping with Inc group, country and organism if necessary 
+ --num_process      the number of process (default=3) 
+ --save_all         save all csv files if necessary 
+ --skip_ident       Input directory containing csv files after identification of AMR genes and you can skip step for identification 
+```
 
 # Databases in BeMAp
 BeMAp uses databases for the antimicrobial resistance genes and Inc grouping.
