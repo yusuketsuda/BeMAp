@@ -40,6 +40,7 @@ python makeblastdb.py
 ```
 
 * testrun (mapping of 33 plasmids carrying blaIMP-6)
+
 store testrun directory in BeMAp directory
 ```bash
 python BeMAp.py -d testrun/genbank/ -i testrun/testrun.fsa
