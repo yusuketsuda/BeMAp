@@ -24,10 +24,9 @@ If you need more detail, please check our article or send e-mail.
 * Libre office 6.4.7.2
 
 # Installation
-Please download **BeMAp_package**. This includes all codes to run BeMAp.
+Please download **BeMAp_package**, including all codes to run BeMAp.
 
-If you need test run, you should download **testrun** directory.  
-This contains 33 genbank files and fasta files encoding a sequence of blaIMP-6.  
+If you need test run, you should download **testrun** directory, containing 33 genbank files and fasta files encoding a sequence of blaIMP-6.  
 For beginners, testrun directory is recommended to be stored in BeMAp directory.
 
 # Usage
