@@ -61,7 +61,7 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
  --save_all         save all csv files if necessary 
  --skip_ident       Input directory containing csv files after identification of AMR genes and you can skip step for identification 
 ```
-If you want to perform BeMAp precisely and store all of csv files
+If you want to perform BeMAp with precise identification of AMR genes and store all of csv files for analysis
 ```bash
 python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --precise --save_all
 ```
