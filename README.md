@@ -26,8 +26,8 @@ If you need more detail, please check our article or send e-mail.
 # Installation
 Please download **BeMAp.package**. This includes all codes to run BeMAp.
 
-If you need test run, you should download **testrun** directory. 
-This contains 33 genbank files containing blaIMP-6 and fasta files encoding a sequence of blaIMP-6.
+If you need test run, you should download **testrun** directory.  
+This contains 33 genbank files containing blaIMP-6 and fasta files encoding a sequence of blaIMP-6.  
 For beginners, testrun directory is recommended to be stored in BeMAp directory.
 
 # Usage
