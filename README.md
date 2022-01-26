@@ -78,6 +78,7 @@ BeMAp uses databases for the antimicrobial resistance genes and Inc grouping.
 
 # Note
 * Displaying the dendric tree depends on PC setting. Please adjust dendric tree to the cells in the spreadsheet.
+* Identification of AMR genes precisely takes more times to align multiple plasmids than ambigous identification.
 
 # Future Plan
 BeMAp will offer options below in the future.
