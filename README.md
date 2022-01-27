@@ -52,15 +52,15 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
 
 # Options
 ```
- -d, --indir        directry containing genbank files 
- -i, --infile       a fasta file for identifying the target gene 
- -o, --out          directory for output 
- --precise          identify the antimicrobial resistance genes precisely 
- --ident_target     change identity when quering target gene if necessary (default=95%) 
- --property         mapping with Inc group, country and organism if necessary 
- --num_process      the number of process (default=3) 
- --save_all         save all csv files if necessary 
- --skip_ident       Input directory containing csv files after identification of AMR genes and you can skip step for identification 
+ -d, --indir         directry containing genbank files 
+ -i, --infile        a fasta file for identifying the target gene 
+ -o, --out           directory for output 
+ --precise           identify the antimicrobial resistance genes precisely 
+ --ident_target      change identity when quering target gene if necessary (default=95%) 
+ --property          mapping with Inc group, country and organism if necessary 
+ --num_process       the number of process (default=3) 
+ --save_all          save all csv files if necessary 
+ --skip_ident [dir]  Input directory containing csv files after identification of AMR genes and you can skip step for identification 
 ```
 If you want to perform BeMAp with precise identification of AMR genes and store all of csv files for analysis
 ```bash
@@ -68,7 +68,7 @@ python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --pre
 ```
 If you want to perform BeMAp using csv files which you have analyzed ever
 ```bash
-python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --skip_ident directory_of_csv_files_which_AMRs_have_been_identified
+python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --skip_ident directory_of_AMRs_csvfiles
 ```
 
 # Databases in BeMAp
