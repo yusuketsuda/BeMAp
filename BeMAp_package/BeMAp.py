@@ -278,7 +278,7 @@ if __name__ == '__main__':
             new_centered_gene.to_csv('new_centered_gene.csv')
 
     if args.property:
-        #color = color.reindex(index=[1,2,3,4,5,6,7,8,9,11,12,13])                                                                       # avoid coloring Not resistance genes
+        color = color.reindex(index=[1,2,3,4,5,6,7,8,9,11,12,13])                                                                       # avoid coloring Not resistance genes
         property_mapping.make_mapping(new_AMR, new_centered_gene, color, inc_color, summary, 
                                       'Inc group', 'figure/legend/AMR.png', 'figure/legend/Inc group.png', 'figure/dendrogram.png', args.out)
         property_mapping.make_mapping(new_AMR, new_centered_gene, color, country_color, summary, 
