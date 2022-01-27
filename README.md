@@ -35,12 +35,12 @@ For beginners, testrun directory is recommended to be stored in BeMAp directory.
 cd BeMAp_package
 ```
 
-* before perfoming BeMAp, make databases for AMR genes and Inc typing
+* before perfoming BeMAp, make databases for identification of AMR genes and classification of Inc group
 ```bash
 python makeblastdb.py
 ```
 
-* testrun (mapping of 33 plasmids carrying blaIMP-6) : If you store testrun directory in BeMAp directory
+* testrun (mapping 33 plasmids carrying blaIMP-6) : If you store testrun directory in BeMAp directory
 ```bash
 python BeMAp.py -d testrun/genbank/ -i testrun/testrun.fsa
 ```
