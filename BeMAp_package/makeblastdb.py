@@ -14,8 +14,10 @@ gene = {1: 'aminoglycoside',
  12: 'nitrofuran'}
 
 for i in gene.keys():
-    AMR_db = 'makeblastdb -in database/ResFinder_db_detail/' + gene[i] + '_detail.fsa -dbtype nucl'
+    AMR_db = 'makeblastdb -in database/ResFinder_db/' + gene[i] + '.fsa -dbtype nucl'
     os.system(AMR_db)
+    AMR_db_detail = 'makeblastdb -in database/ResFinder_db_detail/' + gene[i] + '_detail.fsa -dbtype nucl'
+    os.system(AMR_db_detail)
 
 Inc_db = 'makeblastdb -in database/PlasmidFinder_db/enterobacteriaceae.fsa -dbtype nucl'
 os.system(Inc_db)
