@@ -66,9 +66,9 @@ If you want to perform BeMAp with precise identification of AMR genes and store 
 ```bash
 python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --precise --save_all
 ```
-If you want to perform BeMAp using csv files which you have analyzed ever
+If you want to perform BeMAp using csv files which you have analyzed ever in BeMAp directory
 ```bash
-python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --skip_ident directory_of_AMRs_csvfiles
+python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene --skip_ident AMRs/
 ```
 
 # Databases in BeMAp
