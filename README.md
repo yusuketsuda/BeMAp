@@ -47,7 +47,7 @@ python BeMAp.py -d testrun/genbank/ -i testrun/testrun.fsa
 
 * Now let's start BeMAp!
 ```bash
-python BeMAp.py -d directory_of_genbank_files -i fasta_file_of_target_gene
+python BeMAp.py -d <directory_of_genbank_files> -i <fasta_file_of_target_gene>
 ```
 
 # Options
