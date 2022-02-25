@@ -99,5 +99,5 @@ MIT License
 
 # Author
 * Yusuke Tsuda
-* Bacteriology, Nagoya University Graduated School of Medicine
+* Bacteriology, Nagoya University Graduate School of Medicine
 * tsuda.yusuke@med.nagoya-u.ac.jp
