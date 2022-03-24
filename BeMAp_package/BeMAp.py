@@ -254,7 +254,6 @@ if __name__ == '__main__':
         organism_color = property_color.make_organism_color(summary)
     
         make_legend.make_property_legend('Inc group', inc_color, temp_dir_figure.name)
-        make_legend.make_property_legend('Inc group', inc_color, '/home/yusuketsuda/Desktop/output')
         make_legend.make_property_legend('country', country_color, temp_dir_figure.name)
         make_legend.make_property_legend('organism', organism_color, temp_dir_figure.name)
     
